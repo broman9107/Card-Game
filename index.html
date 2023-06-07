@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+  </head>
+
+  <body>
+    <div id="cardTable">
+      <div id="playGame">
+        <button id="playButton">Play</button>
+      </div>
+      <div id="opponentDeck">
+        <img src="Images/Back Of Deck.svg" class="faceDownCards" />
+      </div>
+      <div id="opponentCard"></div>
+      <div id="opponentScore">Score: 0</div>
+      <div id="playerDeck">
+        <img
+          src="Images/Back Of Deck.svg"
+          class="faceDownCards"
+          id="playerDeck"
+        />
+      </div>
+      <div id="playerCard"></div>
+      <div id="playerScore">Score: 0</div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
